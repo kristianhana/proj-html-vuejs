@@ -1,4 +1,15 @@
 <script>
+import HeaderMenu from "./HeaderMenu.vue"
+
+export default {
+    data() {
+        return {
+           navMenu: ["Home","About us", "Feature", "Testimonials", "Contact US"],
+        }
+    },
+
+    components: {HeaderMenu},
+}
 </script>
 
 <template>
@@ -12,16 +23,19 @@
             <section>
                 <div class="d-flex">
                     <!-- Navbar menu -->
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
+                    <ul v-for="menu in navMenu">
+                        <HeaderMenu :menu="menu" />
                     </ul>
 
                     <!-- Icons -->
-                    <span class="icons mt-2 ms-4 ">
-                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
-                        <i class="fa-solid fa-cart-shopping ms-3" style="color: #000000;"></i>
+                    <span class="icons mt-2 ms-3 mt-3">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                        </a>
+
+                        <a href="">
+                            <i class="fa-solid fa-cart-shopping ms-4" style="color: #000000;"></i>
+                        </a> 
                     </span>
 
                     <!-- Button -->
@@ -36,7 +50,7 @@
 .navbar {
     .container {
         .logo {
-            width: 40px;
+            width: 50px;
         }
     }
 }
