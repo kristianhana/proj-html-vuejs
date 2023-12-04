@@ -15,7 +15,7 @@ export default {
 <template>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="container p-2">
+        <div class="container p-1">
             <!-- Logo -->
             <img class="logo" src="../assets/img/logo-2.png" alt="">
 
@@ -39,7 +39,7 @@ export default {
                     </span>
 
                     <!-- Button -->
-                    <button type="button" class="btn btn-primary ms-5">Get Started</button>
+                    <button type="button" class="btn btn-primary ms-5 mt-2">Get Started</button>
                 </div>
             </section>
         </div>
@@ -49,9 +49,15 @@ export default {
 <style scoped lang="scss">
 .navbar {
     .container {
+        width: 80%;
+        margin: 0 auto;
         .logo {
-            width: 50px;
+            width: 40px;
         }
     }
+}
+
+button {
+    align-self: flex-start;
 }
 </style>

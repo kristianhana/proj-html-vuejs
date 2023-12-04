@@ -19,6 +19,7 @@ export default {
 <style scoped lang="scss">
 .navbar {
     .nav-item {
+        min-height: 50px;
         .nav-link {
             &:hover {
                 border-bottom: 3px solid rgb(0, 128, 255);
