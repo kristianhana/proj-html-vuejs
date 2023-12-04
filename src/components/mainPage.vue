@@ -1,4 +1,11 @@
 <script>
+export default {
+    data(){
+        return  {
+
+        }
+    },
+} 
 </script>
 
 <template>
@@ -30,6 +37,7 @@
 .banner {
     margin: 0 auto;
     width: 90%;
+    height: 500px;
     background-color: hsl(216.92deg 100% 97.45%);
 }
 
