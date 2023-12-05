@@ -18,7 +18,7 @@ export default {
                     <p class="mt-3">Faff about only a quid blower I don't want no agro bleeding chimney pot burke tosser
                         cras nice one boot fanny!</p>
                     <!-- Cards -->
-                    <div class="card-report p-3 mt-5 mb-4">
+                    <div class="card-report p-3 mt-5 mb-2">
                         <div class="d-flex">
                             <div class="d-flex mt-4">
                                 <img class="report" src="../assets/img/510.png" alt="">
@@ -37,7 +37,7 @@ export default {
                                 <img class="report" src="../assets/img/511.png" alt="">
                             </div>
                             <div class="ms-4">
-                                <h5 class="mb-3">Reporting Analysis</h5>
+                                <h5 class="mb-3">Techinacal SEO Audit</h5>
                                 <p>It is a long established fact that a reader will be distracted by the reddable content of
                                     a page when looking at its layout</p>
                             </div>
@@ -65,9 +65,8 @@ p {
 .col {
     .img-tips {
         position: relative;
-        bottom: 50px;
+        bottom: 10px;
     }
-
 }
 
 .report {
@@ -92,4 +91,5 @@ p {
         box-shadow: 0 10px 20px rgba(0, 0, 0, .12),
         0 4px 8px rgba(0, 0, 0, .06);
     }
-}</style>
+}
+</style>

@@ -23,7 +23,7 @@ export default {
             <section>
                 <div class="d-flex">
                     <!-- Navbar menu -->
-                    <ul v-for="menu in navMenu">
+                    <ul v-for="(menu, index) in navMenu">
                         <HeaderMenu :menu="menu" />
                     </ul>
 
