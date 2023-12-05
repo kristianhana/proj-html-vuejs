@@ -4,11 +4,11 @@ import HeaderMenu from "./HeaderMenu.vue"
 export default {
     data() {
         return {
-           navMenu: ["Home","About us", "Feature", "Testimonials", "Contact US"],
+            navMenu: ["Home", "About us", "Feature", "Testimonials", "Contact US"],
         }
     },
 
-    components: {HeaderMenu},
+    components: { HeaderMenu },
 }
 </script>
 
@@ -33,9 +33,13 @@ export default {
                             <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
                         </a>
 
-                        <a href="">
+                        <a class="position-relative" href="">
                             <i class="fa-solid fa-cart-shopping ms-4" style="color: #000000;"></i>
-                        </a> 
+                            
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                                0
+                            </span>
+                        </a>
                     </span>
 
                     <!-- Button -->
@@ -51,6 +55,7 @@ export default {
     .container {
         width: 80%;
         margin: 0 auto;
+
         .logo {
             width: 40px;
         }
