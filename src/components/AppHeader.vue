@@ -53,7 +53,7 @@ export default {
 <style scoped lang="scss">
 .navbar {
     .container {
-        width: 80%;
+        width: 65%;
         margin: 0 auto;
 
         .logo {

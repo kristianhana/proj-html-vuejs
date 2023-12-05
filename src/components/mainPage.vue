@@ -36,7 +36,7 @@ export default {
 <style scoped lang="scss">
 .banner {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     height: 500px;
     background-color: hsl(216.92deg 100% 97.45%);
 }

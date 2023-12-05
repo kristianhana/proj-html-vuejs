@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import mainPage from './components/mainPage.vue';
 import AppMarketing from './components/AppMarketing.vue';
 import TipsTricks from './components/TipsTricks.vue';
+import AppFeature from './components/AppFeature.vue'
 import AppFooter from './components/AppFooter.vue';
 
 
@@ -14,7 +15,7 @@ export default {
     }
   },
 
-  components: {AppHeader, mainPage, AppMarketing, TipsTricks,  AppFooter },
+  components: {AppHeader, mainPage, AppMarketing, TipsTricks, AppFeature,  AppFooter },
 }
 </script>
 
@@ -23,6 +24,7 @@ export default {
   <mainPage />
   <AppMarketing />
   <TipsTricks />
+  <AppFeature />
   <AppFooter />
 </template>
 
