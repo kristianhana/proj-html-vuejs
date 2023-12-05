@@ -1,8 +1,11 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import mainPage from './components/mainPage.vue';
-import AppFooter from './components/AppFooter.vue';
 import AppMarketing from './components/AppMarketing.vue';
+import TipsTricks from './components/TipsTricks.vue';
+import AppFooter from './components/AppFooter.vue';
+
+
 
 export default {
   data(){
@@ -11,7 +14,7 @@ export default {
     }
   },
 
-  components: {AppHeader, mainPage, AppFooter, AppMarketing },
+  components: {AppHeader, mainPage, AppMarketing, TipsTricks,  AppFooter },
 }
 </script>
 
@@ -19,6 +22,7 @@ export default {
   <AppHeader />
   <mainPage />
   <AppMarketing />
+  <TipsTricks />
   <AppFooter />
 </template>
 
