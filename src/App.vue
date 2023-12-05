@@ -5,6 +5,7 @@ import AppMarketing from './components/AppMarketing.vue';
 import TipsTricks from './components/TipsTricks.vue';
 import AppFeature from './components/AppFeature.vue'
 import AppFooter from './components/AppFooter.vue';
+import OurTest from './components/OurTest.vue'
 
 
 
@@ -15,7 +16,7 @@ export default {
     }
   },
 
-  components: {AppHeader, mainPage, AppMarketing, TipsTricks, AppFeature,  AppFooter },
+  components: {AppHeader, mainPage, AppMarketing, TipsTricks, AppFeature, OurTest, AppFooter },
 }
 </script>
 
@@ -25,6 +26,7 @@ export default {
   <AppMarketing />
   <TipsTricks />
   <AppFeature />
+  <OurTest />
   <AppFooter />
 </template>
 

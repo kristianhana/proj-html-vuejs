@@ -37,7 +37,7 @@ export default {
                                 <img class="report" src="../assets/img/511.png" alt="">
                             </div>
                             <div class="ms-4">
-                                <h5 class="mb-3">Techinacal SEO Audit</h5>
+                                <h5 class="mb-3">Technical SEO Audit</h5>
                                 <p>It is a long established fact that a reader will be distracted by the reddable content of
                                     a page when looking at its layout</p>
                             </div>

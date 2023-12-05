@@ -9,12 +9,13 @@ export default {
 </script>
 
 <template>
+    <img class="bg-circle" src="../assets/img/14.png" alt="">
     <div class="container p-5">
         <!-- Background Image -->
-        <img class="bg-circle" src="../assets/img/14.png" alt="">
+        
         <!-- Title and button -->
         <div class="row d-flex align-items-center">
-            <div class="col-8">
+            <div class="col-8 ms-4">
                 <h2>Popular feature that your business needs</h2>
                 <p class="mt-3">Faff about only a quid blower I don't want no agro bleeding chimney pot burke tosser cras
                     nice one boot
@@ -148,14 +149,10 @@ p {
     position: absolute;
     left: -500px;
     top: 1700px;
-    background-image: url("../assets/img/14.png");
-}
-
-.row {
-    margin-left: 10px;
 }
 
 .card {
+    border: none;
     border-radius: 4px;
     background: #fff;
     cursor: pointer;
