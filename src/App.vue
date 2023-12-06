@@ -3,9 +3,11 @@ import AppHeader from './components/AppHeader.vue';
 import mainPage from './components/mainPage.vue';
 import AppMarketing from './components/AppMarketing.vue';
 import TipsTricks from './components/TipsTricks.vue';
-import AppFeature from './components/AppFeature.vue'
+import AppFeature from './components/AppFeature.vue';
+import OurTest from './components/OurTest.vue';
+import AppPosts from './components/AppPosts.vue';
 import AppFooter from './components/AppFooter.vue';
-import OurTest from './components/OurTest.vue'
+
 
 
 
@@ -16,7 +18,7 @@ export default {
     }
   },
 
-  components: {AppHeader, mainPage, AppMarketing, TipsTricks, AppFeature, OurTest, AppFooter },
+  components: {AppHeader, mainPage, AppMarketing, TipsTricks, AppFeature, OurTest, AppPosts, AppFooter },
 }
 </script>
 
@@ -27,6 +29,7 @@ export default {
   <TipsTricks />
   <AppFeature />
   <OurTest />
+  <AppPosts />
   <AppFooter />
 </template>
 
