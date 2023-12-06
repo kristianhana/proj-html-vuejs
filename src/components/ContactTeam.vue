@@ -40,6 +40,31 @@
                         </button>
                     </div>
                 </div>
+
+                <!-- Map ping -->
+                <div>
+                   <img class="ping" src="../assets/img/pin.png.png" alt="">
+                </div>
+
+                <!-- Image mountain -->
+                <div>
+                    <img class="mountain" src="../assets/img/montain.png.jpg" alt="">
+                </div>
+
+                <!-- Info -->
+                <div class="d-flex badges">
+                      <div class="badge">
+                        <p>Dati mappa ©2020 </p>
+                      </div>
+
+                      <div class="badge">
+                        <p>Termini e condizioni d'uso</p>
+                      </div>
+
+                      <div class="badge">
+                        <p>Segnala un errore nella mappa</p>
+                      </div>
+                </div>
             </div>
             <!-- Info -->
             <div class="col">
@@ -94,6 +119,7 @@
             </div>
         </div>
     </div>
+    <hr class="mt-5">
 </template>
 
 <style scoped lang="scss">
@@ -171,6 +197,32 @@ a {
         height: 60px;
         font-size: 30px;
         color: hsl(0deg 0% 40%);
+    }
+}
+
+.ping {
+    width: 28px;
+    position: absolute;
+    top: 215px;
+    left: 310px;
+}
+
+.mountain {
+    width: 50px;
+    position: absolute;
+    bottom: 340px;
+    left: 20px;
+    border: 2px solid white;
+}
+
+.badges {
+    position: absolute;
+    left: 90px;
+    bottom: 330px;
+
+    .badge {
+        background-color: hsl(120deg 28.21% 92.35%);
+        height: 20px;
     }
 }
 </style>
